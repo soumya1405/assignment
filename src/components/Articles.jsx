@@ -100,7 +100,7 @@ export default function Articles() {
                       <div style={{ fontSize: 11, color: '#94a3b8' }}>{a.journal}</div>
                       <div style={{ fontSize: 11, color: '#cbd5e1', marginTop: 1 }}>{a.volume}</div>
                     </div>
-                    <a href="#" style={{ display: 'flex', alignItems: 'center', gap: 5, color: '#2563eb', fontSize: 12, fontWeight: 600 }}>
+                    <a href="#home" style={{ display: 'flex', alignItems: 'center', gap: 5, color: '#2563eb', fontSize: 12, fontWeight: 600 }}>
                       <FileText size={12} /> Read PDF
                     </a>
                   </div>
@@ -111,7 +111,7 @@ export default function Articles() {
         </div>
 
         <div style={{ textAlign: 'center', marginTop: 44 }}>
-          <a href="#" className="btn btn-primary">
+          <a href="#home" className="btn btn-primary">
             View All Publications <ArrowRight size={15} />
           </a>
         </div>

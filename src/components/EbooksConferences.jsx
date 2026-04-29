@@ -85,7 +85,7 @@ export default function EbooksConferences() {
                   <p style={{ fontSize: 13, color: '#64748b', lineHeight: 1.6, marginBottom: 18 }}>{b.desc}</p>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <span style={{ fontSize: 12, color: '#94a3b8' }}>{b.pages}</span>
-                    <a href="#" className="btn" style={{ background: b.color, color: '#fff', padding: '7px 16px', fontSize: 13 }}>
+                    <a href="#home" className="btn" style={{ background: b.color, color: '#fff', padding: '7px 16px', fontSize: 13 }}>
                       Download <ArrowRight size={13} />
                     </a>
                   </div>
@@ -133,7 +133,7 @@ export default function EbooksConferences() {
                       background: `${c.color}12`, color: c.color,
                       fontSize: 12, fontWeight: 700, padding: '5px 12px', borderRadius: 6,
                     }}>{c.mode}</span>
-                    <a href="#" className="btn" style={{ background: c.color, color: '#fff', padding: '9px 20px', fontSize: 13 }}>
+                    <a href="#home" className="btn" style={{ background: c.color, color: '#fff', padding: '9px 20px', fontSize: 13 }}>
                       Register <ArrowRight size={13} />
                     </a>
                   </div>
@@ -143,7 +143,7 @@ export default function EbooksConferences() {
           </div>
 
           <div style={{ textAlign: 'center', marginTop: 40 }}>
-            <a href="#" className="btn btn-outline">
+            <a href="#home" className="btn btn-outline">
               <Calendar size={15} /> All Conferences
             </a>
           </div>

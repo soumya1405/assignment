@@ -24,7 +24,7 @@ export default function Journals() {
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 16 }}>
           {journals.map(j => (
-            <a key={j.name} href="#" style={{
+            <a key={j.name} href="#home" style={{
               display: 'block', textDecoration: 'none',
               background: '#fff', border: '1px solid #e2e8f0', borderRadius: 14,
               padding: '22px 20px',
@@ -56,7 +56,7 @@ export default function Journals() {
         </div>
 
         <div style={{ textAlign: 'center', marginTop: 44 }}>
-          <a href="#" className="btn btn-outline">
+          <a href="#home" className="btn btn-outline">
             <BookOpen size={16} /> View All Journals
           </a>
         </div>

@@ -54,7 +54,7 @@ export default function Submit() {
               ))}
             </div>
 
-            <a href="#" className="btn btn-primary">
+            <a href="#home" className="btn btn-primary">
               <Upload size={16} /> Submit Manuscript
             </a>
           </div>

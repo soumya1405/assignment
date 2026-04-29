@@ -68,7 +68,7 @@ export default function Footer() {
             <ul style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
               {quickLinks.map(l => (
                 <li key={l}>
-                  <a href="#" style={{ fontSize: 13.5, color: '#64748b', transition: 'color .15s' }}
+                  <a href="#home" style={{ fontSize: 13.5, color: '#64748b', transition: 'color .15s' }}
                     onMouseEnter={e => e.currentTarget.style.color = '#e2e8f0'}
                     onMouseLeave={e => e.currentTarget.style.color = '#64748b'}>{l}</a>
                 </li>
@@ -82,7 +82,7 @@ export default function Footer() {
             <ul style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
               {resources.map(l => (
                 <li key={l}>
-                  <a href="#" style={{ fontSize: 13.5, color: '#64748b', transition: 'color .15s' }}
+                  <a href="#home" style={{ fontSize: 13.5, color: '#64748b', transition: 'color .15s' }}
                     onMouseEnter={e => e.currentTarget.style.color = '#e2e8f0'}
                     onMouseLeave={e => e.currentTarget.style.color = '#64748b'}>{l}</a>
                 </li>
@@ -95,7 +95,7 @@ export default function Footer() {
             <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: .1, textTransform: 'uppercase', color: '#cbd5e1', marginBottom: 18 }}>Specialties</div>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 7 }}>
               {specialties.map(s => (
-                <a key={s} href="#" style={{
+                <a key={s} href="#home" style={{
                   fontSize: 12, color: '#64748b',
                   background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.08)',
                   borderRadius: 6, padding: '4px 10px', transition: 'color .15s, border-color .15s',
@@ -114,7 +114,7 @@ export default function Footer() {
           <div style={{ fontSize: 13, color: '#475569' }}>© 2026 MedDocs Publishers. All rights reserved.</div>
           <div style={{ display: 'flex', gap: 20 }}>
             {['Privacy Policy', 'Terms of Use', 'Cookie Policy', 'GDPR'].map(l => (
-              <a key={l} href="#" style={{ fontSize: 13, color: '#475569', transition: 'color .15s' }}
+              <a key={l} href="#home" style={{ fontSize: 13, color: '#475569', transition: 'color .15s' }}
                 onMouseEnter={e => e.currentTarget.style.color = '#94a3b8'}
                 onMouseLeave={e => e.currentTarget.style.color = '#475569'}>{l}</a>
             ))}
